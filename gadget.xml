@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+	<name>SweClockers</name>
+	<version>0.8</version>
+	<description>Nyheter från SweClockers.</description>
+	<author name="Stefan Sundin">
+		<info url="http://stefansundin.com/" />
+		<logo src="images/bowser.png" />
+	</author>
+	<icons>
+		<icon height="64" width="64" src="images/icon.png" />
+	</icons>
+	<hosts>
+		<host name="sidebar">
+			<base type="HTML" apiVersion="1.0.0" src="gadget.html" />
+			<permissions>Full</permissions>
+			<platform minPlatformVersion="1.0" />
+			<defaultImage src="images/icon.png" />
+		</host>
+	</hosts>
+</gadget>

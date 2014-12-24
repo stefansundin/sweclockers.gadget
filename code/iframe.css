@@ -1,0 +1,19 @@
+
+body {
+	margin: 0;
+	width: 730px;
+	height: 1000px;
+	/*background-image: url(images/iframe-top.png);
+	background-position: top left;
+	background-repeat: no-repeat;*/
+}
+
+iframe {
+	/*position:absolute;
+	top:10px;
+	left:0;
+	width:730px;
+	height:990px;*/
+	width:100%;
+	height:100%;
+}

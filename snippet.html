@@ -1,0 +1,23 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="code/snippet.css" />
+	<script type="text/javascript" src="code/snippet.js"></script>
+</head>
+<body onload="init();" onkeypress="key();">
+	<g:background id="background">
+		<div id="header">
+			<img id="x" src="images/x.png" onclick="x();" onmouseover="x_hover();" onmouseout="x_out();" />
+			<div id="title"><a id="title-link"></a></div>
+			<div id="subtitle"><span id="category"></span> <span id="date"></span></div>
+		</div>
+		<div id="contents">
+			<div id="desc"></div><br />
+			<a id="iframe" onclick="loadiframe();"><img src="images/zoom.png" /> Läs nyheten i en iframe [f]</a><br />
+			<a id="link"><img src="images/page_world.png" /> Läs nyheten i webbläsaren [w]</a><br />
+			<a id="thread"><img src="images/comments.png" /> Kommentera i tråden</a>
+			<a id="markunread" onclick="markunread();" onmouseover="markunread_hover();" onmouseout="markunread_out();"><img id="markunread_img" src="images/lightbulb_off.png" /> Markera nyheten som oläst</a><br />
+		</div>
+	</g:background>
+</body>
+</html>

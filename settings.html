@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="code/settings.css" />
+	<script type="text/javascript" src="code/settings.js"></script>
+</head>
+<body onload="init();">
+	Feed:
+	<select name="feed" onchange="updatefeed();">
+		<option value="news">Nyheter</option>
+		<option value="articles">Artiklar</option>
+		<option value="market">Marknad</option>
+		<option value="forum">Forum</option>
+		<option value="url">URL</option>
+	</select><br />
+	<input id="feedurl" name="feedurl" type="text" onfocus="feed.value='url';" /><br />
+	Uppdateringsintervall (i sekunder): <input type="text" name="updateinterval" id="updateinterval" /><br />
+	Tema: <select id="theme" name="theme" onmouseover="refreshthemes();"></select> <a href="#" onclick="browsethemes();return false;">Öppna mapp</a><br />
+	<label for="showscrollbar"><input id="showscrollbar" name="showscrollbar" type="checkbox" /> Visa scrollbar</label><br />
+	<br />
+	Öppna nyhet med:
+	<select name="view">
+		<option value="auto">Auto</option>
+		<option value="snippet">Alltid snippet</option>
+		<option value="iframe">Alltid iframe</option>
+		<option value="web">Alltid webbläsaren</option>
+	</select><br />
+	Du kan även hålla in shift för att välja iframe, eller ctrl för webbläsaren, oavsett vilken inställning du har här.<br />
+	<br />
+	<a id="thread"><img src="images/comments.png" /> Öppna gadgetens tråd.</a><br />
+	Version <span id="version"></span>.<br />
+	<br />
+	Gadget skapad av Stefan Sundin.<br />
+	Vissa ikoner kommer från <a href="http://www.famfamfam.com/lab/icons/silk/">famfamfam silk</a>.<br />
+</body>
+</html>

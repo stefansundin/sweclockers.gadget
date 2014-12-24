@@ -1,0 +1,221 @@
+
+body {
+	margin: 0;
+	font-family: Tahoma;
+	font-size: 11px;
+    width: 130px;
+    height: 210px;
+}
+
+a {
+	cursor:pointer;
+	text-decoration:none;
+}
+
+a img {
+	border:0;
+}
+
+/* header */
+
+#updatelink {
+	position:absolute;
+	top:0;
+	left:0;
+	width:32px;
+	height:34px;
+}
+.updatelink-docked {
+	display:none;
+}
+.updatelink-large { }
+
+#sclink {
+	display:block;
+	position:absolute;
+}
+.sclink-docked {
+	top:0;
+	left:0;
+	width:130px;
+	height:16px;
+}
+.sclink-large {
+	top:7px;
+	left:32px;
+	width:126px;
+	height:16px;
+}
+
+/* feeds */
+
+.feed {
+	z-index:10;
+	position:absolute;
+	width:22px;
+	cursor:pointer;
+	text-align:center;
+}
+
+.feed-docked {
+	top:17px;
+}
+
+.feed-large {
+	top:24px;
+}
+
+.feedsel {
+	background:url(../../images/feedsel.png) no-repeat;
+}
+
+/*24 diff*/
+#feed_news {
+	right:101px;
+}
+
+#feed_articles {
+	right:77px;
+}
+
+#feed_market {
+	right:53px;
+}
+
+#feed_forum {
+	right:29px;
+}
+
+#feed_url {
+	right:5px;;
+}
+#feed_url img {
+	position:relative;
+	top:1px;
+}
+
+/*
+#feed_news {
+	left:35px;
+}
+
+#feed_articles {
+	left:59px;
+}
+
+#feed_market {
+	left:83px;
+}
+
+#feed_forum {
+	left:107px;
+}
+
+#feed_url {
+	left:132px;
+}
+*/
+
+/* contents */
+
+#contents {
+	position:absolute;
+	/*background-color:#DDD9D0;*/
+	
+	/*scrollbar-base-color:#E36B13;
+	scrollbar-track-color:#DDD9D0;
+	scrollbar-3dlight-color:#DDD9D0;
+	scrollbar-darkshadow-color:#DDD9D0;
+	scrollbar-shadow-color:#DDD9D0;
+	scrollbar-highlight-color:#FA9D3B;
+	scrollbar-arrow-color:#DDD9D0;*/
+}
+.contents-docked {
+	top:38px;
+	left:6px;
+	width:120px;
+	height:155px;
+}
+.contents-large {
+	top:44px;
+	left:8px;
+	width:144px;
+	height:219px;
+}
+
+.item {
+	cursor:pointer;
+	color:#C25B10;
+}
+
+.read {
+	color:rgb(0,0,0);
+}
+
+.selected {
+	font-style:italic;
+}
+
+/* messages */
+
+#updating {
+	z-index:5;
+	position:absolute;
+	text-align:center;
+	background-color:#DDD9D0;
+}
+.updating-docked {
+	top:38px;
+	left:6px;
+	width:120px;
+}
+.updating-large {
+	top:42px;
+	left:8px;
+	width:144px;
+}
+
+/* scroll */
+
+#scrollup, #scrolldown {
+	cursor:pointer;
+	z-index:4;
+	position:absolute;
+	height:13px;
+	text-align:center;
+	display:none;
+}
+.scrollup-docked, .scrolldown-docked {
+	left:6px;
+	width:120px;
+}
+.scrollup-large, .scrolldown-large {
+	left:8px;
+	width:144px;
+}
+
+#scrollup {
+	background:url(../images/fadetop.png) repeat-x;
+}
+.scrollup-docked {
+	top:32px;
+}
+.scrollup-large {
+	top:36px;
+}
+
+#scrolldown {
+	bottom:0;
+	background:url(../images/fadebottom.png) repeat-x;
+}
+
+/* debug */
+
+#debug {
+	position:absolute;
+	bottom:8px;
+	left:6px;
+	background:#FFFFFF;
+	
+	display:none;
+}

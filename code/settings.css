@@ -1,0 +1,39 @@
+
+body {
+	margin: 0;
+	width: 300px;
+	height: 300px;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+a {
+	cursor:pointer;
+	text-decoration:none;
+}
+
+a img {
+	border:0;
+}
+
+#feedurl {
+	background:rgb(255,255,255) url(../images/feed.png) no-repeat 2px center;
+	padding-left:21px;
+	border:1px solid #afafaf;
+	width:285px;
+}
+#feedurl:focus {
+	border:1px solid #a4c9e3;
+}
+
+#theme {
+	width:150px;
+}
+
+#updateinterval {
+	width:70px;
+}
+
+#emailcopied {
+	display:none;
+}
